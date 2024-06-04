@@ -35,6 +35,8 @@ A classe `Registro` contém informações de cadastro sobre os registros da plat
 
 - `descRegistro`: A descrição da ocorrencia.
 
+- `usuario`: Relacionamento entre registro e usuario.
+
 # Endpoints
 
 ## Métodos GET
@@ -82,6 +84,7 @@ Aqui está um exemplo da estrutura JSON representando as informações do `regis
     "ocorrencia": "String",
     "localidade": "String",
     "descRegistro": "String",
+    "id_registro": "Long"
 }
 ```
 
